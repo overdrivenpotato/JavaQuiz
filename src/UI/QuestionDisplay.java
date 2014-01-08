@@ -146,12 +146,6 @@ public class QuestionDisplay extends GuiScreen{
         return null;
     }
 
-    public QuestionDisplay setFrame(JFrame frame)
-    {
-        this.frame = frame;
-        return this;
-    }
-
     private void createUIComponents() {
         correctLabel = new JLabel();
 

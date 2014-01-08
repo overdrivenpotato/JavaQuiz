@@ -2,13 +2,13 @@ package UI;
 
 import underthehood.QHandler;
 import underthehood.Question;
+import underthehood.Util;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
-import javax.swing.text.html.HTML;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.regex.Pattern;
@@ -25,18 +25,19 @@ public class SearchForm extends GuiScreen{
     private JButton searchButton;
     private JButton backButton;
     private JButton tryThisQuestionButton;
-    private JButton startQuizWithThisButton;
+    private JButton addButtonSearch;
     private JList browseList;
     private JButton tryThisQuestionButton2;
     private JButton backButton1;
-    private JTabbedPane mainPanelUI;
+    protected JTabbedPane mainPanelUI;
     private JLabel searchingText;
     private JCheckBox searchAnswerChoicesCheckBox;
     private JPanel panelHolder;
+    private JButton addButtonBrowse;
     private DefaultListModel searchListModel;
     private DefaultListModel browseListModel;
 
-    private GuiScreen parentScreen;
+    protected GuiScreen parentScreen;
 
     public SearchForm(final GuiScreen parentScreen) {
         this.panel = panelHolder;
@@ -48,14 +49,8 @@ public class SearchForm extends GuiScreen{
         browseList.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {
-                if(browseList.isSelectionEmpty())
-                {
-                    tryThisQuestionButton2.setEnabled(false);
-                }
-                else
-                {
-                    tryThisQuestionButton2.setEnabled(true);
-                }
+                tryThisQuestionButton2.setEnabled(!browseList.isSelectionEmpty());
+                addButtonBrowse.setEnabled(tryThisQuestionButton2.isEnabled());
             }
         });
         populateBrowseList();
@@ -64,13 +59,8 @@ public class SearchForm extends GuiScreen{
         searchList.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {
-                if (searchList.isSelectionEmpty()) {
-                    tryThisQuestionButton.setEnabled(false);
-                    startQuizWithThisButton.setEnabled(false);
-                } else {
-                    tryThisQuestionButton.setEnabled(true);
-                    startQuizWithThisButton.setEnabled(true);
-                }
+                tryThisQuestionButton.setEnabled(!searchList.isSelectionEmpty());
+                addButtonSearch.setEnabled(tryThisQuestionButton.isEnabled());
             }
         });
 
@@ -120,31 +110,29 @@ public class SearchForm extends GuiScreen{
         tryThisQuestionButton2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new QuestionDisplay().setFrame(frame).showQuestion(QHandler.getHandler().getQuestions().get(browseList.getSelectedIndex()), currUI, 0);
+                ((QuestionDisplay) new QuestionDisplay().setFrame(frame)).showQuestion(QHandler.questions().get(browseList.getSelectedIndex()), currUI, 0);
             }
         });
         tryThisQuestionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new QuestionDisplay().setFrame(frame).showQuestion(QHandler.questions().get(getQuestionIndex((String) searchList.getSelectedValue())), currUI, 0);
+                ((QuestionDisplay) new QuestionDisplay().setFrame(frame)).showQuestion(QHandler.questions().get(Util.getQuestionIndex((String) searchList.getSelectedValue())), currUI, 0);
             }
         });
-        startQuizWithThisButton.addActionListener(new ActionListener() {
+
+        addButtonSearch.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                MainGui.get().addQuestionSaved(QHandler.questions().get(getQuestionIndex((String) searchListModel.get(searchList.getSelectedIndex()))));
+                GuiManager.get().addQuestionSaved(QHandler.questions().get(Util.getQuestionIndex((String) searchListModel.get(searchList.getSelectedIndex()))));
             }
         });
-    }
 
-    private int getQuestionIndex(String q)
-    {
-        for(int i = 0; i < QHandler.questions().size(); i++)
-        {
-            if(HtmlFmt.removeHTML(q.trim()).contains(QHandler.questions().get(i).getQuestion().trim()))
-                return i;
-        }
-        return -1;
+        addButtonBrowse.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                GuiManager.get().addQuestionSaved(QHandler.questions().get(Util.getQuestionIndex((String) browseListModel.get(browseList.getSelectedIndex()))));
+            }
+        });
     }
 
     private void populateBrowseList() {
@@ -170,9 +158,7 @@ public class SearchForm extends GuiScreen{
         final String[] searchStrings = input.toLowerCase().split(",");
 
         for(int i = 0; i < searchStrings.length; i++)
-        {
             searchStrings[i] = searchStrings[i].trim();
-        }
 
         searchButton.setEnabled(false);
 
@@ -194,36 +180,27 @@ public class SearchForm extends GuiScreen{
                                     colorTag +
                                             HtmlFmt.addPreFmtTag(HtmlFmt.fixForHTML(q.getQuestion())
                                             ));
+
                             for(int i = 0; i < tempList.size(); i++)
                             {
                                 String item = (String) tempList.get(i);
-                                if(Pattern.compile(Pattern.quote(s2), Pattern.CASE_INSENSITIVE).matcher(item).find()
-                                    || Pattern.compile(Pattern.quote(s1), Pattern.CASE_INSENSITIVE).matcher(item).find())
+                                if(Util.containsCaseInsensitive(item, s2)
+                                    || Util.containsCaseInsensitive(item, s1))
                                     continue;
                             }
-//                            if(tempList.contains(HtmlFmt.fixIndent(q.getQuestion())) ||
-//                                    tempList.contains(
-//                                            HtmlFmt.addBody(
-//                                                    colorTag +
-//                                                            HtmlFmt.addPreFmtTag(HtmlFmt.fixForHTML(q.getQuestion())
-//                            ))))
-//                            {
-//                                continue;
-//                            }
                             boolean found = false;
                             if(searchAnswerChoicesCheckBox.isSelected())
                             {
                                 for(String p : q.getPosAnswers())
                                 {
-                                    if(p.contains(searchString))
+                                    if(Pattern.compile(Pattern.quote(p), Pattern.CASE_INSENSITIVE).matcher(searchString).find())
                                         found = true;
                                 }
                             }
-                            if(q.getQuestion().contains(searchString))
+                            if(Pattern.compile(Pattern.quote(searchString), Pattern.CASE_INSENSITIVE).matcher(q.getQuestion()).find())
                                 tempList.addElement(HtmlFmt.fixIndent(q.getQuestion()));
                             else if(found)
                                 tempList.addElement(HtmlFmt.addBody(colorTag + HtmlFmt.addPreFmtTag(HtmlFmt.fixForHTML(q.getQuestion()))));
-
                         }
 
                         searchingText.setVisible(false);

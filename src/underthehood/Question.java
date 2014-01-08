@@ -60,4 +60,8 @@ public class Question {
         s += complexity;
         return s;
     }
+
+    public int getComplexity() {
+        return complexity;
+    }
 }

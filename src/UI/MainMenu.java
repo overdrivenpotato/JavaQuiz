@@ -44,9 +44,10 @@ public class MainMenu extends GuiScreen{
         randomQuestionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                questionPanel.showQuestion((Question) questions.get(printInt(new Random().nextInt(questions.size()))), parentScreen, 0);
+                questionPanel.showQuestion(questions.get(printInt(new Random().nextInt(questions.size()))), parentScreen, 0);
             }
         });
+        randomQuestionButton.setVisible(false);
         exitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -70,8 +71,15 @@ public class MainMenu extends GuiScreen{
     public static void setupUI()
     {
         try {
-            UIManager.setLookAndFeel(
-                    UIManager.getSystemLookAndFeelClassName());
+//            UIManager.setLookAndFeel(
+//                    UIManager.getSystemLookAndFeelClassName());
+
+            for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
         } catch (Exception ignored) {}
     }
 

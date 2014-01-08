@@ -17,9 +17,9 @@ public class GuiScreen {
     public void showScreen()
     {
         if(fullScreen)
-            MainGui.get().showFullScreen(panel, frame);
+            GuiManager.get().showFullScreen(panel, frame);
         else
-            MainGui.get().showScreen(panel, frame);
+            GuiManager.get().showScreen(panel, frame);
 
         frame.setVisible(true);
     }

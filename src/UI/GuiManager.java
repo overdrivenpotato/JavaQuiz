@@ -7,14 +7,14 @@ import javax.swing.*;
 /**
  * Created by marko on 17/12/13.
  */
-public class MainGui {
-    private JPanel panel1;
-    private JPanel right;
-    private JPanel left;
+public class GuiManager {
+    protected JPanel panel1;
+    protected JPanel right;
+    protected JPanel left;
     private JSplitPane splitter;
     private SavedQuestions printList;
 
-    public MainGui()
+    public GuiManager()
     {
         this.printList = new SavedQuestions();
         splitter.setRightComponent(printList.getContents());
@@ -28,15 +28,15 @@ public class MainGui {
         this.left = panel;
     }
 
-    private static MainGui handle;
+    private static GuiManager handle;
 
-    public static MainGui get()
+    public static GuiManager get()
     {
         return handle;
     }
 
     static {
-        handle = new MainGui();
+        handle = new GuiManager();
     }
 
     public void showFullScreen(JPanel panel, JFrame frame) {

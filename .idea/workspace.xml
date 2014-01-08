@@ -1,32 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4059a956-ddb7-4931-8ec5-e6d4ccad9fb5" name="Default" comment="">
+    <list default="true" id="4059a956-ddb7-4931-8ec5-e6d4ccad9fb5" name="Default" comment="Fixed some code">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/underthehood/Util.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/UI/MainGui.form" afterPath="$PROJECT_DIR$/src/UI/GuiManager.form" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/UI/MainGui.java" afterPath="$PROJECT_DIR$/src/UI/GuiManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/GuiScreen.java" afterPath="$PROJECT_DIR$/src/UI/GuiScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/HtmlFmt.java" afterPath="$PROJECT_DIR$/src/UI/HtmlFmt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaQuizUpdated2.iml" afterPath="$PROJECT_DIR$/JavaQuizUpdated2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/underthehood/JavaQuizUpdatedDRV.java" afterPath="$PROJECT_DIR$/src/underthehood/JavaQuizUpdatedDRV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/MainMenu.form" afterPath="$PROJECT_DIR$/src/UI/MainMenu.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/MainMenu.java" afterPath="$PROJECT_DIR$/src/UI/MainMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Marko.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Marko.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/underthehood/QHandler.java" afterPath="$PROJECT_DIR$/src/underthehood/QHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/underthehood/Question.java" afterPath="$PROJECT_DIR$/src/underthehood/Question.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/QuestionDisplay.form" afterPath="$PROJECT_DIR$/src/UI/QuestionDisplay.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/QuestionDisplay.java" afterPath="$PROJECT_DIR$/src/UI/QuestionDisplay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/SavedQuestions.form" afterPath="$PROJECT_DIR$/src/UI/SavedQuestions.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/SavedQuestions.java" afterPath="$PROJECT_DIR$/src/UI/SavedQuestions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/SearchForm.form" afterPath="$PROJECT_DIR$/src/UI/SearchForm.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/SearchForm.java" afterPath="$PROJECT_DIR$/src/UI/SearchForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/SelectedSheet.form" afterPath="$PROJECT_DIR$/src/UI/SelectedSheet.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/SelectedSheet.java" afterPath="$PROJECT_DIR$/src/UI/SelectedSheet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quiz2.txt" afterPath="$PROJECT_DIR$/quiz2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaQuizUpdated2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,111 +77,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SearchForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.java">
+      <file leaf-file-name="quiz2.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="128" selection-start="4654" selection-end="4654" vertical-scroll-proportion="0.0" vertical-offset="1663" max-vertical-offset="4068">
-              <folding>
-                <element signature="e#1969#2447#0" expanded="true" />
-                <element signature="e#2436#2437#0" expanded="true" />
-                <element signature="e#4212#4500#0" expanded="true" />
-                <element signature="e#4489#4490#0" expanded="true" />
-                <element signature="e#4553#4831#0" expanded="true" />
-                <element signature="e#4820#4821#0" expanded="true" />
-                <element signature="e#6017#9066#0" expanded="true" />
-                <element signature="e#9055#9056#0" expanded="true" />
-              </folding>
+            <state line="0" column="12" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2934">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiScreen.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/GuiScreen.java">
+      <file leaf-file-name="Util.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/underthehood/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="41" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="684">
-              <folding>
-                <element signature="method#setFrame#0;class#GuiScreen#0" expanded="true" />
-              </folding>
+            <state line="6" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="558">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainGui.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/MainGui.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="26" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1044">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainGui.form" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/MainGui.form">
+      <file leaf-file-name="SearchForm.form" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenu.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/MainMenu.java">
+      <file leaf-file-name="JavaQuizUpdatedDRV.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/underthehood/JavaQuizUpdatedDRV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="160" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1350">
-              <folding>
-                <element signature="e#1209#1471#0" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
-                <element signature="e#1511#1668#0" expanded="true" />
-                <element signature="e#1657#1658#0" expanded="true" />
-                <element signature="e#1716#1916#0" expanded="true" />
-                <element signature="e#1905#1906#0" expanded="true" />
-              </folding>
+            <state line="24" column="30" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1746">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SavedQuestions.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="QuestionDisplay.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/QuestionDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="16" selection-start="2492" selection-end="2492" vertical-scroll-proportion="0.0" vertical-offset="1386" max-vertical-offset="2934">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuiManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/GuiManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="8" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="1044">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuiManager.form" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/GuiManager.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SavedQuestions.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI/SavedQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="108" selection-start="2512" selection-end="2512" vertical-scroll-proportion="0.434238" vertical-offset="1016" max-vertical-offset="1998">
+            <state line="4" column="22" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2664">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#791#1157#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1200#1593#0" expanded="true" />
-                <element signature="e#1582#1583#0" expanded="true" />
-                <element signature="e#1644#2441#0" expanded="true" />
-                <element signature="e#2125#2135#0" expanded="true" />
-                <element signature="e#2430#2431#0" expanded="true" />
-                <element signature="e#2978#2988#0" expanded="true" />
-                <element signature="e#3288#3289#0" expanded="true" />
-                <element signature="e#3345#3346#0" expanded="true" />
-                <element signature="e#3374#3375#0" expanded="true" />
+                <element signature="e#877#1087#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1130#1679#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
+                <element signature="e#1730#2527#0" expanded="true" />
+                <element signature="e#2211#2221#0" expanded="true" />
+                <element signature="e#2516#2517#0" expanded="true" />
+                <element signature="e#2577#3386#0" expanded="true" />
+                <element signature="e#3065#3075#0" expanded="true" />
+                <element signature="e#3375#3376#0" expanded="true" />
+                <element signature="e#3438#3597#0" expanded="true" />
+                <element signature="e#3586#3587#0" expanded="true" />
+                <element signature="e#3694#3704#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizPrinter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/underthehood/QuizPrinter.java">
+      <file leaf-file-name="SearchForm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="30" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="530" max-vertical-offset="1062">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="136" column="0" selection-start="4942" selection-end="4942" vertical-scroll-proportion="0.0" vertical-offset="1308" max-vertical-offset="3384">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SavedQuestions.form" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI/SavedQuestions.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMenu.form" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/MainMenu.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
@@ -222,25 +197,26 @@
         <option value="$PROJECT_DIR$/src/underthehood/QuestionHandler.java" />
         <option value="$PROJECT_DIR$/src/underthehood/QHndl.java" />
         <option value="$PROJECT_DIR$/src/underthehood/QHandler.java" />
-        <option value="$PROJECT_DIR$/src/underthehood/Question.java" />
         <option value="$PROJECT_DIR$/src/temp.java" />
         <option value="$PROJECT_DIR$/src/UI/MainMenu.form" />
         <option value="$PROJECT_DIR$/src/UI/SelectedSheet.form" />
         <option value="$PROJECT_DIR$/src/underthehood/JavaQuizUpdatedDRV.java" />
-        <option value="$PROJECT_DIR$/src/UI/QuestionDisplay.java" />
         <option value="$PROJECT_DIR$/src/UI/QuestionDisplay.form" />
-        <option value="$PROJECT_DIR$/src/UI/GuiManager.java" />
         <option value="$PROJECT_DIR$/src/UI/SelectedList.form" />
         <option value="$PROJECT_DIR$/src/UI/SelectedList.java" />
         <option value="$PROJECT_DIR$/src/UI/GuiScreen.java" />
-        <option value="$PROJECT_DIR$/src/UI/SearchForm.form" />
-        <option value="$PROJECT_DIR$/src/UI/MainGui.java" />
-        <option value="$PROJECT_DIR$/src/UI/SearchForm.java" />
-        <option value="$PROJECT_DIR$/src/UI/SavedQuestions.form" />
-        <option value="$PROJECT_DIR$/src/UI/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/UI/HtmlFmt.java" />
         <option value="$PROJECT_DIR$/src/underthehood/QuizPrinter.java" />
+        <option value="$PROJECT_DIR$/src/UI/MainGui.java" />
+        <option value="$PROJECT_DIR$/src/underthehood/Question.java" />
+        <option value="$PROJECT_DIR$/src/underthehood/Util.java" />
+        <option value="$PROJECT_DIR$/src/UI/QuestionDisplay.java" />
+        <option value="$PROJECT_DIR$/src/UI/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/UI/SearchForm.java" />
+        <option value="$PROJECT_DIR$/src/UI/SavedQuestions.form" />
+        <option value="$PROJECT_DIR$/src/UI/GuiManager.java" />
         <option value="$PROJECT_DIR$/src/UI/SavedQuestions.java" />
+        <option value="$PROJECT_DIR$/src/UI/SearchForm.form" />
       </list>
     </option>
   </component>
@@ -281,6 +257,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -358,89 +335,8 @@
               <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaQuizUpdated2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaQuizUpdated2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavedQuestions" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaQuizUpdated2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaQuizUpdated2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QuestionDisplay" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaQuizUpdated2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaQuizUpdated2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainMenu" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaQuizUpdated2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaQuizUpdated2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,7 +344,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propGUI" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
@@ -467,7 +363,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_0f65d050d0c352fd38a0b25d82ee942deb19ef87/bin/git.exe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -554,19 +450,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -593,6 +476,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -696,6 +592,8 @@
       <workItem from="1387053889178" duration="18721000" />
       <workItem from="1387128606904" duration="27400000" />
       <workItem from="1387202275004" duration="6176000" />
+      <workItem from="1387426761458" duration="79000" />
+      <workItem from="1387490538912" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1387339194124</created>
@@ -705,32 +603,31 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52297000" />
+    <option name="totallyTimeSpent" value="52417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1602" height="902" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20667523" sideWeight="0.7705146" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20603338" sideWeight="0.7705146" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.118741974" sideWeight="0.7705146" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.118741974" sideWeight="0.7705146" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987261" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22857143" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32738853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18292683" sideWeight="0.7705146" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25987262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18292683" sideWeight="0.7705146" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25987262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -738,6 +635,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -755,7 +653,8 @@
     </option>
     <MESSAGE value="First commit" />
     <MESSAGE value="First commit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit&#10;" />
+    <MESSAGE value="Fixed some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -765,11 +664,35 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/underthehood/Question.java">
+    <entry file="file://$PROJECT_DIR$/src/UI/GuiManager.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/SavedQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1242">
-          <folding />
+        <state line="21" column="26" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2363">
+          <folding>
+            <element signature="e#877#1087#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1130#1679#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1730#2527#0" expanded="true" />
+            <element signature="e#2211#2221#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
+            <element signature="e#2577#3386#0" expanded="true" />
+            <element signature="e#3065#3075#0" expanded="true" />
+            <element signature="e#3375#3376#0" expanded="true" />
+            <element signature="e#3438#3597#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="true" />
+            <element signature="e#3694#3704#0" expanded="true" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/SavedQuestions.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/QuestionDisplay.form">
@@ -784,9 +707,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/SelectedSheet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/SelectedSheet.form">
@@ -801,16 +722,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/GuiScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/underthehood/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="53" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="34" column="53" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/QuestionDisplay.form">
@@ -825,30 +742,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="71" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2414">
-          <folding />
-        </state>
+        <state line="40" column="71" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2414" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="63" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1530">
-          <folding>
-            <element signature="e#1209#1471#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1511#1668#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1716#1916#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="75" column="63" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/HtmlFmt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="94" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
-          <folding />
-        </state>
+        <state line="11" column="94" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.form">
@@ -865,16 +769,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/GuiScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="15" column="27" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/underthehood/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="49" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1088">
-          <folding />
-        </state>
+        <state line="22" column="49" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz2.txt">
@@ -901,23 +801,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="99" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1394">
-          <folding>
-            <element signature="e#1209#1471#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1511#1668#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1716#1916#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="36" column="99" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1394" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="152" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
+        <state line="0" column="152" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.form">
@@ -934,16 +823,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/GuiScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="11" column="54" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/underthehood/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="49" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1088">
-          <folding />
-        </state>
+        <state line="22" column="49" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz2.txt">
@@ -961,23 +846,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="96" selection-end="96" vertical-scroll-proportion="0.2542735" vertical-offset="0" max-vertical-offset="2771" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/underthehood/QHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="98" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/underthehood/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/MainMenu.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -985,36 +853,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/SelectedSheet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="511">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/underthehood/JavaQuizUpdatedDRV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0" vertical-offset="1638" max-vertical-offset="1746">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="511" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/SelectedSheet.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/QuestionDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="89" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.0" vertical-offset="1076" max-vertical-offset="2736">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/MainGui.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -1024,66 +866,55 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/underthehood/QHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="98" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="684" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/HtmlFmt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="77" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="882">
+        <state line="12" column="28" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="882" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/underthehood/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="37" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="1206" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2934">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/GuiManager.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/GuiScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="684">
-          <folding>
-            <element signature="method#setFrame#0;class#GuiScreen#0" expanded="true" />
-          </folding>
+        <state line="31" column="29" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/underthehood/JavaQuizUpdatedDRV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="30" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1548">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.java">
+    <entry file="file://$PROJECT_DIR$/src/UI/QuestionDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="128" selection-start="4654" selection-end="4654" vertical-scroll-proportion="0.0" vertical-offset="1663" max-vertical-offset="4068">
-          <folding>
-            <element signature="e#1969#2447#0" expanded="true" />
-            <element signature="e#2436#2437#0" expanded="true" />
-            <element signature="e#4212#4500#0" expanded="true" />
-            <element signature="e#4489#4490#0" expanded="true" />
-            <element signature="e#4553#4831#0" expanded="true" />
-            <element signature="e#4820#4821#0" expanded="true" />
-            <element signature="e#6017#9066#0" expanded="true" />
-            <element signature="e#9055#9056#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/MainGui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="77" column="16" selection-start="2492" selection-end="2492" vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="2771">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="160" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1350">
-          <folding>
-            <element signature="e#1209#1471#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1511#1668#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1716#1916#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/javax/swing/JFileChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="738" column="157" selection-start="24828" selection-end="24828" vertical-scroll-proportion="0.59205776" vertical-offset="11912" max-vertical-offset="34146">
-          <folding />
-        </state>
+        <state line="46" column="38" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.59498954" vertical-offset="273" max-vertical-offset="1296" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/SavedQuestions.form">
@@ -1091,40 +922,51 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/lang/Character.java">
+    <entry file="file://$PROJECT_DIR$/src/UI/GuiManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4978" column="123" selection-start="171001" selection-end="171001" vertical-scroll-proportion="0.5018797" vertical-offset="88869" max-vertical-offset="126216">
+        <state line="44" column="8" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="1008">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/underthehood/QuizPrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/underthehood/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="30" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="530" max-vertical-offset="1062">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="6" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/SavedQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="108" selection-start="2512" selection-end="2512" vertical-scroll-proportion="0.434238" vertical-offset="1016" max-vertical-offset="1998">
+        <state line="4" column="22" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2664">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#791#1157#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1200#1593#0" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
-            <element signature="e#1644#2441#0" expanded="true" />
-            <element signature="e#2125#2135#0" expanded="true" />
-            <element signature="e#2430#2431#0" expanded="true" />
-            <element signature="e#2978#2988#0" expanded="true" />
-            <element signature="e#3288#3289#0" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
-            <element signature="e#3374#3375#0" expanded="true" />
+            <element signature="e#877#1087#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1130#1679#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1730#2527#0" expanded="true" />
+            <element signature="e#2211#2221#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
+            <element signature="e#2577#3386#0" expanded="true" />
+            <element signature="e#3065#3075#0" expanded="true" />
+            <element signature="e#3375#3376#0" expanded="true" />
+            <element signature="e#3438#3597#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="true" />
+            <element signature="e#3694#3704#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="4942" selection-end="4942" vertical-scroll-proportion="0.0" vertical-offset="1308" max-vertical-offset="3384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/SearchForm.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
   </component>
